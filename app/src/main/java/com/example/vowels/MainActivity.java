@@ -16,11 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         ImageButton letraa= (ImageButton) findViewById(R.id.ibtnA);
-        ImageButton letrae= (ImageButton) findViewById(R.id.ibtnE);
-        ImageButton letrai= (ImageButton) findViewById(R.id.ibtnI);
-        ImageButton letrao= (ImageButton) findViewById(R.id.ibtnO);
-        ImageButton letrau= (ImageButton) findViewById(R.id.ibtnU);
-
         letraa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton letrae= (ImageButton) findViewById(R.id.ibtnE);
         letrae.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -37,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton letrai= (ImageButton) findViewById(R.id.ibtnI);
         letrai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton letrao= (ImageButton) findViewById(R.id.ibtnO);
         letrao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton letrau= (ImageButton) findViewById(R.id.ibtnU);
         letrau.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
